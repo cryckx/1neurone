@@ -8,7 +8,11 @@ def read_input(file_path):
     entree = f.readlines()
     f.close()
 
-    return [entree[i][]]
-        entree[i] = entree[i][:-1]
-    return entree
+    remove_line = [e[:-1] for e in entree]
+    splited = [e.split() for e in remove_line]
+    int_entree = [map(int, e) for e in splited]
+    return int_entree
 
+
+def creation_vars():
+    pass
