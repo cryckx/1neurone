@@ -12,7 +12,3 @@ def read_input(file_path):
     splited = [e.split() for e in remove_line]
     int_entree = [map(int, e) for e in splited]
     return int_entree
-
-
-def creation_vars():
-    pass

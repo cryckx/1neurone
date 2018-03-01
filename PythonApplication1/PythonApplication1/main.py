@@ -1,6 +1,6 @@
-from inputhandler import *
+from iohandler import *
 
-entree = read_input("./example/a_example.in")
+entree = read_input("./example/b_should_be_easy.in")
 
 rows = entree[0][0]
 columns = entree[0][1]
@@ -13,4 +13,6 @@ ride_list = entree[1:]
 
 print entree
 print ride_list
-print rows, columns, vehicles, rides, bonus, steps
+print 'rows, columns, vehicles, rides, bonus, steps'
+print rows, '  ',columns, '   ', vehicles, '     ', rides, '   ', bonus,'  ', steps
+
